@@ -1,0 +1,27 @@
+{
+  "name": "gokhankurtulus/csrf",
+  "description": "A simple PHP CSRF class that provides functionality for operating CSRF tokens.",
+  "type": "library",
+  "keywords": [
+    "csrf"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gökhan Kurtuluş",
+      "email": "gokhan@gokhankurtulus.com",
+      "homepage": "https://github.com/gokhankurtulus"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Csrf\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1 || ^8.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
